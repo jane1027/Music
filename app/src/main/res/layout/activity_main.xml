@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="adv.gvs.com.music.MainActivity">
+
+   <LinearLayout
+       android:layout_gravity="center_horizontal"
+
+       android:orientation="horizontal"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+       <Button
+           android:background="@drawable/button_sele"
+           android:text="列表"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/button" />
+
+       <Button
+           android:background="@drawable/button_sele"
+           android:text="音乐"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/button2" />
+ <Button
+           android:background="@drawable/button_sele"
+           android:text="我的"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/button3" />
+
+   </LinearLayout>
+
+    <FrameLayout
+        android:background="#d6bfbf"
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>
